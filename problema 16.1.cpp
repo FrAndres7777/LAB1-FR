@@ -3,7 +3,7 @@ using namespace std ;
 int main(){
 	int k,Num=0,semilla=1,cont;
 	cout<<"ingresa el numero k para encontra semillas desde esta";cin>>k;k=k-1;
-	for(int k2=0;k>0;k--){// ciclo para acar los valores de k las semillas
+	for(int k2=0;k>0;k--){// ciclo para sacar los valores de k las semillas
 		k2=k;
 		cout<<endl<<"_______"<<k2<<"_____:";
 		cont=0;
