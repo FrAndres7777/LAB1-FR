@@ -4,8 +4,10 @@ int main() {
     int Numero,factor = 1;
     cout << "Ingrese un numero  acalcular";
     cin >> Numero;
+    // sacamos cada factor de numero dado
     for (int i = 2; i <= Numero; i++) {
-        while (Numero % i == 0) {
+        // usamos propiedad para obtener factor primo de un numero 
+		while (Numero % i == 0) {
             factor = i;
             Numero/= i;
         }
